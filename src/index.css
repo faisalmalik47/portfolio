@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-display: swap;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: rem;
+    line-height: normal;
+  }
+}
+
+.ansible {
+  background-image: url('./assets/custom-icons/Ansible.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.argo {
+  background-image: url('./assets/custom-icons/Argo\ CD.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aws {
+  background-image: url('./assets/custom-icons/AWS.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.azure {
+  background-image: url('./assets/custom-icons/Azure.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bash {
+  background-image: url('./assets/custom-icons/Bash.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.docker {
+  background-image: url('./assets/custom-icons/Docker.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.git {
+  background-image: url('./assets/custom-icons/GitHub.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grafana {
+  background-image: url('./assets/custom-icons/Grafana.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.helm {
+  background-image: url('./assets/custom-icons/Helm.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jenkins {
+  background-image: url('./assets/custom-icons/Jenkins.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.k8s {
+  background-image: url('./assets/custom-icons/Kubernetes.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.linux {
+  background-image: url('./assets/custom-icons/Linux.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.db {
+  background-image: url('./assets/custom-icons/MySQL.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.prom {
+  background-image: url('./assets/custom-icons/Prometheus.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.python {
+  background-image: url('./assets/custom-icons/Python.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tf {
+  background-image: url('./assets/custom-icons/Terraform.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sass {
+  background-image: url('./assets/custom-icons/Sass.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jira {
+  background-image: url('./assets/custom-icons/Jira.svg'); /* Update with the correct path to your icon */
+  width: 45px;  /* Adjust width as needed */
+  height: 45px; /* Adjust height as needed */
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
