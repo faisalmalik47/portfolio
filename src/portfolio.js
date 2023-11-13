@@ -161,8 +161,8 @@ const educationInfo = {
       schoolName: "AKTU - Abdul Kalam Technical University",
       logo: require("./assets/images/aktu.png"), // Ensure this is the correct logo for AKTU
       subHeader: "Bachelor of Technology in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked in the top 10% of the class in a rigorous program, encompassing comprehensive coursework in Software Engineering, Web Security, and Operating Systems.",
+      duration: "2015 - 2019",
+      desc: "Engaged in a rigorous program, encompassing comprehensive coursework in Software Engineering, Web Security, and Operating Systems.",
       descBullets: [
         "Engaged in extensive studies on software development lifecycles, focusing on efficient, secure, and sustainable engineering practices.",
         "Participated in multiple group projects, developing practical skills in web security protocols and operating system structures."
