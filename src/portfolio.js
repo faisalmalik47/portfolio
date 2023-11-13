@@ -222,7 +222,7 @@ const workExperiences = {
       companylogo: require("./assets/images/aurum.png"),
       date: "Sep 2023 - Present",
       desc: "WiseX, operated by Aurum WiseX, is recognized as India's leading Neo-Realty investment platform. It specializes in offering curated alternative investments in the real estate sector, presenting institutional-grade investment opportunities. The platform's distinct approach involves leveraging predictive analytics to meticulously scrutinize over 150 data points using proprietary technology solutions​​. This comprehensive approach ensures a data-driven and highly selective process in asset selection, aiming to offer high-quality real estate investment opportunities to its clients.",
-      color: "#f10000",
+      // color: "#f10000",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -240,7 +240,7 @@ const workExperiences = {
       company: "Franconnect",
       companylogo: require("./assets/images/fc.png"),
       date: "Mar 2022 - Sep 2022",
-      desc: "BT Group, a British multinational telecommunications company, offers a range of services including fixed-line, broadband, mobile, subscription television, and IT services. They are committed to connecting people and businesses, focusing on cybersecurity, advancing digital skills, and aiming for net-zero carbon emissions by 2031"
+      desc: "FranConnect is a leading franchise management software that excels in enhancing franchise operations. It is used by over 1500 brands globally and is not just a CRM, but a comprehensive platform for automating sales reporting, royalty calculations, and more. The software supports the opening of new units, efficient field operations, and is operational in 18 countries, showcasing its extensive reach and effectiveness in franchise management."
       
     },
     {
@@ -248,7 +248,8 @@ const workExperiences = {
       company: "British Telecom",
       companylogo: require("./assets/images/bt.png"),
       date: "Nov 2019 - Mar 2022",
-      desc: "FranConnect is a leading franchise management software that excels in enhancing franchise operations. It is used by over 1500 brands globally and is not just a CRM, but a comprehensive platform for automating sales reporting, royalty calculations, and more. The software supports the opening of new units, efficient field operations, and is operational in 18 countries, showcasing its extensive reach and effectiveness in franchise management."
+      desc: "BT Group, a British multinational telecommunications company, offers a range of services including fixed-line, broadband, mobile, subscription television, and IT services. They are committed to connecting people and businesses, focusing on cybersecurity, advancing digital skills, and aiming for net-zero carbon emissions by 2031"
+
       
     }
 
