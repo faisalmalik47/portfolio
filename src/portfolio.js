@@ -25,7 +25,6 @@ const greeting = {
   subTitle: emoji(
     "A DevOps Engineer 🚀 experienced in CI/CD, cloud services, and infrastructure automation using Docker, Kubernetes, Jenkins, and Ansible. Proficient in scripting and maintaining high-performance web and mobile applications."
   ),
-  
   resumeLink:
     "https://drive.google.com/file/d/1B3zfjDj9K3urt1waUyJVFUTWSeajnQlx/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
