@@ -19,6 +19,7 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+
 const greeting = {
   username: "Faisal Malik",
   title: "Hello everyone, I'm Faisal",
