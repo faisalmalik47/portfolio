@@ -10,8 +10,8 @@ cd $PROJECT_DIR
 git pull origin main
 
 # Install dependencies
-#npm install
-
+npm install
+npm audit fix
 # Build your project (assuming your project has a build script)
 npm run build
 
