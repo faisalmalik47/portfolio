@@ -10,4 +10,4 @@ def trigger_deploy():
     return 'Deployment triggered', 200
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=4444)
+    app.run(host='0.0.0.0', port=4444, ssl_context=('/etc/letsencrypt/live/faisalmalik.in/fullchain.pem', '/etc/letsencrypt/live/faisalmalik.in/privkey.pem'))
