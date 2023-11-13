@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Faisal Malik",
-  title: "Hello everyone, I'm Faisal",
+  title: "Hello everyone, I'm Malik",
   subTitle: emoji(
     "A DevOps Engineer 🚀 experienced in CI/CD, cloud services, and infrastructure automation using Docker, Kubernetes, Jenkins, and Ansible. Proficient in scripting and maintaining high-performance web and mobile applications."
   ),
@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "faiisalmaliik1996@gmail.com",
   // gitlab: "https://gitlab.com/faisal",
   // facebook: "https://www.facebook.com/faisal",
-  medium: "https://medium.com/@faiisalmaliik",
+  medium: "https://medium.com/@nudelhiwala",
   instagram: "https://instagram.com/nudelhiwaala",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
