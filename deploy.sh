@@ -1,5 +1,16 @@
 #!/bin/bash -l
 
+LOCK_FILE="/var/www/portfolio/deploy.lock"
+
+# Check for an existing lock file
+if [ -f "$LOCK_FILE" ]; then
+    echo "Deployment is currently running by another process."
+    exit 1
+else
+    # Create a lock file
+    touch "$LOCK_FILE"
+fi
+
 # Log start of the script
 echo "Starting deployment script..."
 
@@ -12,14 +23,12 @@ cd $PROJECT_DIR
 # Print current user
 echo "Running as user: $(whoami)"
 
-#nvm use 16.20.2
+# Uncomment the following line if using nvm to manage Node.js versions
+# nvm use 16.20.2
 
 # Print Node.js and Yarn versions
 echo "Node version: $(node -v)"
 echo "Yarn version: $(yarn -v)"
-
-# Log environment variables (optional, be cautious with sensitive data)
-# env
 
 # Pull the latest changes from the main branch
 echo "Pulling latest changes from Git..."
@@ -38,6 +47,8 @@ if [ $? -eq 0 ]; then
     echo "Build succeeded."
 else
     echo "Build failed. Exiting..."
+    # Remove the lock file before exiting
+    rm -f "$LOCK_FILE"
     exit 1
 fi
 
@@ -48,5 +59,8 @@ sudo rm -rf /var/www/html/*
 # Copy the build artifacts to /var/www/html
 echo "Copying build artifacts to the deployment directory..."
 cp -R $PROJECT_DIR/build/* /var/www/html/
+
+# Remove the lock file after deployment is complete
+rm -f "$LOCK_FILE"
 
 echo "Deployment script finished."
