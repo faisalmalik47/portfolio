@@ -8,7 +8,7 @@ deploy.lock
 # testing
 /coverage
 /build
-deploy.log
+
 
 # misc
 .DS_Store
