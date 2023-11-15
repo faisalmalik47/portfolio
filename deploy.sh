@@ -25,6 +25,8 @@ echo "Running as user: $(whoami)"
 
 # Uncomment the following line if using nvm to manage Node.js versions
 # nvm use 16.20.2
+source /root/.nvm/nvm.sh
+nvm use 16.13.0
 
 # Print Node.js and Yarn versions
 echo "Node version: $(node -v)"
