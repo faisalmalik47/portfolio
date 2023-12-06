@@ -38,7 +38,7 @@ git pull origin main
 
 # Install dependencies
 echo "Installing dependencies..."
-yarn install
+#yarn install
 
 # Build your project (assuming your project has a build script)
 echo "Building the project..."
