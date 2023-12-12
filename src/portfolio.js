@@ -366,7 +366,7 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://devopscube.com",
+      url: "https://devopscube.com/list-of-devops-blogs-and-resources/",
       title: "DevOps Updates",
       description:
         "Daily dose of tech news and articles to keep you updated."
@@ -378,7 +378,7 @@ const blogSection = {
         "Industry best practices and much more."
     },
     {
-      url: "https://draft.dev/learn/devops-blogs",
+      url: "https://devopscube.com/become-devops-engineer/",
       title: "Want to learn devops?",
       description:
         "Start your devops journey today."
