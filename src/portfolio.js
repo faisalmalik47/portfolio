@@ -25,7 +25,7 @@ const greeting = {
     "A DevOps Engineer 🚀 experienced in CI/CD, cloud services, and infrastructure automation using Docker, Kubernetes, Jenkins, and Ansible. Proficient in scripting and maintaining high-performance web and mobile applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1MKob2PsV6nIEMleK90TU8TbJX1MYKUK4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bX9nnVVVmb5DLDmemM0Zw1bqO40jP2O_/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
