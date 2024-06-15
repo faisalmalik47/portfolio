@@ -271,7 +271,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/kassio.png"),
-      projectName: "Kassio",
+      projectName: " Kassio",
       projectDesc: "Kassio is a crypto platform providing mobile payments, trading, secure wallets, and crypto loans. It focuses on security and operates internationally, offering various financial services in the crypto market.",
       footerLink: [
         {
