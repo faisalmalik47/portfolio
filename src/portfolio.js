@@ -219,7 +219,7 @@ const workExperiences = {
       role: "DevOps Engineer",
       company: "WiseX by Aurum",
       companylogo: require("./assets/images/aurum.png"),
-      date: "Sep 2023 - Present",
+      date: "Sep 2023 - Jul 2024",
       desc: "WiseX, operated by Aurum WiseX, is recognized as India's leading Neo-Realty investment platform. It specializes in offering curated alternative investments in the real estate sector, presenting institutional-grade investment opportunities. The platform's distinct approach involves leveraging predictive analytics to meticulously scrutinize over 150 data points using proprietary technology solutions​​. This comprehensive approach ensures a data-driven and highly selective process in asset selection, aiming to offer high-quality real estate investment opportunities to its clients.",
       // color: "#f10000",
       // descBullets: [
