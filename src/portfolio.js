@@ -229,7 +229,7 @@ const workExperiences = {
     },
     {
       role: "DevOps Enginner",
-      company: "Trantor Inc",
+      company: "Trantor Inc.",
       companylogo: require("./assets/images/trantor.png"),
       date: "Dec 2022 - Aug 2023",
       desc: "Trantor Inc., established in 2012 and based in Menlo Park, California, specializes in IT consulting and enterprise technology solutions. Their services encompass cloud computing, managed security, DevOps consultancy, and data migration. Known for integrating analytics, automation, and artificial intelligence, Trantor excels in delivering solutions that exceed client expectations, particularly in transforming the lending ecosystem."
@@ -275,7 +275,7 @@ const bigProjects = {
       projectDesc: "Kassio is a crypto platform providing mobile payments, trading, secure wallets, and crypto loans. It focuses on security and operates internationally, offering various financial services in the crypto market.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Website",
           url: "https://www.kassio.com/"
         }
         //  you can add extra buttons here.
@@ -287,7 +287,7 @@ const bigProjects = {
       projectDesc: "Dolpo's e-bookstore merges commercial sales with independent literary advice, serving as a foundation for future expansion into diverse cultural and retail sectors.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Website",
           url: "http://dolpo.fr/"
         }
       ]
