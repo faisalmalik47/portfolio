@@ -1,0 +1,29 @@
+*.sh
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#webhook.py
+# dependencies
+/node_modules
+node_modules/
+/.pnp
+.pnp.js
+# testing
+/coverage
+/build
+deploy.log
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#user generated content
+public/profile.json
+public/blogs.json
+deploy.lock
